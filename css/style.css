@@ -58,12 +58,30 @@ img {
   color: #fff;
 }
 
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+}
 /* Introdução */
 
 .intro {
+  width: 100%;
   margin-top: 92px;
   text-align: center;
   background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
   height: 380px;
   color: #fff;
 }
@@ -109,4 +127,49 @@ img {
 .intro .btn:hover {
   color: #fff;
   border-color: #fff;
+}
+
+.products {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.product_list li {
+  background-color: #fec63e;
+  margin-bottom: 40px;
+}
+
+.product_list li h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product_list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto 10px auto;
+}
+
+.product_icon {
+  background: #000 no-repeat center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.product_icon img {
+  margin: 0 auto;
+}
+
+.products p {
+  margin-bottom: 20px;
+}
+
+.products .btn:hover {
+  color: #000;
+  border-color: #000;
 }
