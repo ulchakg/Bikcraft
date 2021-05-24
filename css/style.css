@@ -204,3 +204,59 @@ img {
   color: #fff;
   border-color: #fff;
 }
+
+/* Qualidade */
+
+.quality {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quality img {
+  margin: 0 auto;
+}
+
+.quality:after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  position: absolute;
+  top: 139.5px;
+  right: 162px;
+  z-index: -1;
+}
+
+.quality_list {
+  margin-top: 50px;
+}
+
+.quality_list li {
+  margin-bottom: 50px;
+}
+
+.quality_list li h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quality_list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto;
+}
+
+.quality .btn:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
