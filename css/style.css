@@ -210,6 +210,7 @@ img {
 .quality {
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 .quality img {
@@ -259,4 +260,96 @@ img {
 
 .call p {
   margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #fec63e;
+  text-align: center;
+}
+
+.footer_phrase {
+  width: 100%;
+  height: 220px;
+  background: url(../img/bg-footer.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.footer_phrase .quote_ext {
+  max-width: 400px;
+}
+
+.footer_contact {
+  width: 100%;
+  color: #fff;
+  background: #000;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer_contact h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fec63e;
+}
+
+.footer_contact p {
+  color: #fff;
+}
+
+.footer_contact h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fec63e;
+  text-align: left;
+  margin: 6px 0 10px 0;
+}
+
+.contacts li {
+  display: inline-block;
+}
+
+.social_icon li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.social_icon li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 6px;
+}
+
+.social_icon li a:hover {
+  border-color: #fff;
+}
+
+.history p {
+  max-width: 400px;
+  text-align: justify;
+}
+
+.contacts li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_rights {
+  text-align: left;
+  padding: 10px;
+}
+
+.footer_rights p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
