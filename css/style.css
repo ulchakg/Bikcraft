@@ -213,23 +213,23 @@ img {
 
 .quality {
   text-align: center;
-  margin-top: 20px;
-  padding-bottom: 30px;
+  margin-top: -50px;
+  padding-bottom: 20px;
 }
 
 .quality img {
   margin: 0 auto;
 }
 
-.quality:after {
+.quality:before {
   content: "";
   width: 634px;
   height: 83px;
   display: block;
   background: url(../img/linhas.svg) no-repeat center;
-  position: absolute;
-  top: 139.5px;
-  right: 162px;
+  position: relative;
+  top: 222px;
+  left: 164px;
   z-index: -1;
 }
 
