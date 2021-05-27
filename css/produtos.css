@@ -105,3 +105,83 @@
 .frame_4-4 li:nth-child(2) {
   margin-bottom: 2px;
 }
+
+/* Orçamento */
+
+.products_budget {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.products_budget .subtitle {
+  text-align: center;
+}
+
+.products_budget .subtitle:after {
+  background-color: #fff;
+}
+
+.inputs {
+  padding-right: 40px;
+}
+
+.inputs label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 8px 0 0 0;
+}
+
+.inputs input {
+  color: #fff;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  background: none;
+  border: #fec63e solid 3px;
+  outline: none;
+}
+
+.inputs textarea {
+  color: #fff;
+  display: block;
+  background: none;
+  border: #fec63e solid 3px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 120px;
+  max-height: 120px;
+  outline: none;
+}
+
+.inputs .btn {
+  background: none;
+  margin-top: 20px;
+}
+
+.inputs .btn:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.tick h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fec63e;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.tick li {
+  display: block;
+  padding: 5px;
+  width: 340px;
+  margin-top: 3px;
+}
+
+.tick li:nth-child(odd) {
+  background: #484b4d;
+}
