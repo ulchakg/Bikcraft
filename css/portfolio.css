@@ -5,6 +5,7 @@
   height: 160px;
   text-align: center;
   background: url(../img/bg-portfolio.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .portfolio_intro h1 {
