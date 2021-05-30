@@ -12,6 +12,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -101,8 +102,7 @@ img {
 
 .quote_ext {
   max-width: 360px;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
 }
 
 .quote_ext p {
@@ -182,7 +182,7 @@ img {
   width: 100%;
   background: #000;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .portfolio_icon {
