@@ -15,3 +15,7 @@ new SimpleSlide({
   pauseOnHover: false,
 });
 }
+
+if(window.SimpleAnime) {
+new SimpleAnime()
+}
